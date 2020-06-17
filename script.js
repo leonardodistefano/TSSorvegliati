@@ -68,7 +68,7 @@ function main() {
 
   {
     const gltfLoader = new GLTFLoader();
-    gltfLoader.load('http://localhost:5000/model/coco.glb', (gltf) => {
+    gltfLoader.load('https://leonardodistefano.github.io/TSSorvegliati/model/coco.glb', (gltf) => {
       const root = gltf.scene;
       scene.add(root);
 
