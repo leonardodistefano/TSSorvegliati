@@ -32,8 +32,8 @@ function main() {
   }
 
   {
-    const color = 	003366;
-    const intensity = 2;
+    const color = 	 0xFFFFFF;
+    const intensity = 1;
     const light = new THREE.DirectionalLight(color, intensity);
     light.position.set(5, 10, 2);
     scene.add(light);
