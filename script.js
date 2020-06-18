@@ -32,7 +32,7 @@ function main() {
   }
 
   {
-    const color = 0xFFFFFF;
+    const color = 	003366;
     const intensity = 1;
     const light = new THREE.DirectionalLight(color, intensity);
     light.position.set(5, 10, 2);
